@@ -31,3 +31,16 @@ Response:
   "shortUrl": "http://localhost:8080/Ab12Xz",
   "qrCodeBase64": "data:image/png;base64,iVBORw0KGg..."
 }
+🗃️ Database Schema
+URL_MAPPING
+| id | long_url | short_code | created_at | click_count |
+
+URL_CLICK
+| id | short_code | clicked_at | ip | browser | os | country |
+
+📜 License
+This project is licensed under the MIT License.
+
+🙌 Author
+Balaji Vivek
+GitHub: @balaji-vivek
