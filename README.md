@@ -15,6 +15,7 @@ A minimal, fast, and extensible Spring Boot REST API that allows you to shorten 
 ✅ Swagger UI for testing endpoints  
 ✅ Error handling for missing/invalid URLs  
 ✅ Docker support for easy deployment
+✅ Support for Vanity URLs (custom short codes)
 ---
 
 ## 💻 Tech Stack
@@ -24,7 +25,7 @@ A minimal, fast, and extensible Spring Boot REST API that allows you to shorten 
 - Spring Boot 3.x
 - Spring MVC (REST API)
 - Spring Data JPA
-- H2 In-Memory Database
+- PostgresSql Database
 - Docker
 
 **Libraries:**
@@ -54,6 +55,18 @@ Response:
   "shortUrl": "http://localhost:8080/Ab12Xz",
   "qrCodeBase64": "data:image/png;base64,iVBORw0KGg..."
 }
+
+POST /shorten
+{
+  "longUrl": "https://linkedin.com/in/balaji-vivek",
+  "customCode": "balaji"
+}
+Response:
+{
+  "shortUrl": "http://localhost:8080/balaji",
+  "qrCodeBase64": "data:image/png;base64,..."
+}
+
 🗃️ Database Schema
 URL_MAPPING
 | id | long_url | short_code | created_at | click_count |
