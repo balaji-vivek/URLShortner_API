@@ -17,6 +17,27 @@ A minimal, fast, and extensible Spring Boot REST API that allows you to shorten 
 
 ---
 
+## 💻 Tech Stack
+
+**Backend:**
+- Java 17
+- Spring Boot 3.x
+- Spring MVC (REST API)
+- Spring Data JPA
+- H2 In-Memory Database
+
+**Libraries:**
+- Lombok – for boilerplate-free models
+- ZXing – for QR Code generation
+- Apache Commons Lang – for random string utilities
+- Springdoc OpenAPI – for Swagger UI integration
+
+**Dev Tools:**
+- Maven
+- IntelliJ IDEA
+- Postman (for testing)
+- Git & GitHub
+
 ## 📸 Demo
 
 ```json
