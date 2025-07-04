@@ -45,3 +45,4 @@ This project is licensed under the MIT License.
 Balaji Vivek
 GitHub: @balaji-vivek
 ⭐️ Show Some Love
+If this project helped you, please consider giving it a ⭐️ on GitHub!
