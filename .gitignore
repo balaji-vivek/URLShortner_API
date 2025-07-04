@@ -31,3 +31,6 @@ build/
 
 ### VS Code ###
 .vscode/
+
+# Prevent committing secrets
+application-secret.properties
