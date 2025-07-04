@@ -6,7 +6,7 @@ A minimal, fast, and extensible Spring Boot REST API that allows you to shorten 
 
 ## 🚀 Features
 
-✅ Shorten long URLs  
+✅ Shorten long URLs  ✅ Support for Vanity URLs (custom short codes)
 ✅ Auto-generate short codes  
 ✅ Generate QR Code (Base64) for each short URL  
 ✅ Redirect to original long URL  
@@ -15,7 +15,6 @@ A minimal, fast, and extensible Spring Boot REST API that allows you to shorten 
 ✅ Swagger UI for testing endpoints  
 ✅ Error handling for missing/invalid URLs  
 ✅ Docker support for easy deployment
-✅ Support for Vanity URLs (custom short codes)
 ---
 
 ## 💻 Tech Stack
