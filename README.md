@@ -14,7 +14,7 @@ A minimal, fast, and extensible Spring Boot REST API that allows you to shorten 
 ✅ Store and fetch data via H2 database  
 ✅ Swagger UI for testing endpoints  
 ✅ Error handling for missing/invalid URLs  
-
+✅ Docker support for easy deployment
 ---
 
 ## 💻 Tech Stack
@@ -25,6 +25,7 @@ A minimal, fast, and extensible Spring Boot REST API that allows you to shorten 
 - Spring MVC (REST API)
 - Spring Data JPA
 - H2 In-Memory Database
+- Docker
 
 **Libraries:**
 - Lombok – for boilerplate-free models
@@ -37,6 +38,7 @@ A minimal, fast, and extensible Spring Boot REST API that allows you to shorten 
 - IntelliJ IDEA
 - Postman (for testing)
 - Git & GitHub
+- **Docker**
 
 ## 📸 Demo
 
