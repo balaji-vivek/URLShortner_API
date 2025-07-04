@@ -74,12 +74,16 @@ If this project helped you, please consider giving it a ⭐️ on GitHub!
 This project supports running via Docker for easy setup and deployment.
 
 🔧 Build the Docker Image
+
 Make sure your JAR is built first:
 ./mvnw clean package
+
 Then build the Docker image:
 docker build -t urlshortner-api .
+
  Run the Docker Container
 docker run -p 8080:8080 urlshortner-api
+
 This will expose the application on http://localhost:8080
 
 📄 Dockerfile
